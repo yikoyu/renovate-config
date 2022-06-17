@@ -1,0 +1,16 @@
+{
+  "name": "@yikoyu/renovate-config",
+  "private": true,
+  "description": "Presets for Open Source Libraries",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "renovate-config-validator"
+  },
+  "files": [],
+  "devDependencies": {
+    "renovate": "^32.88.1"
+  },
+  "repository": "git@github.com:yikoyu/renovate-config.git",
+  "author": "yikoyu <2282373181@qq.com.com>",
+  "license": "MIT"
+}

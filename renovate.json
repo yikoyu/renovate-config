@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "config:base",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(chore)",
+    ":semanticCommitScope(deps)",
+    ":disablePeerDependencies",
+    "group:allNonMajor",
+    "schedule:daily"
+  ],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true,
+      "automergeStrategy": "squash"
+    },
+    {
+      "matchPackageNames": ["typescript"],
+      "automerge": false
+    }
+  ]
+}
