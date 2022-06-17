@@ -1,12 +1,13 @@
 {
   "extends": [
     "config:base",
+    ":timezone(Asia/Shanghai)",
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)",
     ":semanticCommitScope(deps)",
     ":disablePeerDependencies",
     "group:allNonMajor",
-    "schedule:daily"
+    "schedule:earlyMondays"
   ],
   "rangeStrategy": "bump",
   "packageRules": [
