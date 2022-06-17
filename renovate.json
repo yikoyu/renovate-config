@@ -6,19 +6,62 @@
     ":semanticCommitTypeAll(chore)",
     ":semanticCommitScope(deps)",
     ":disablePeerDependencies",
-    "group:allNonMajor",
     "schedule:earlyMondays"
   ],
   "rangeStrategy": "bump",
-  "packageRules": [
+  "packageRules": [{
+      "groupName": "tiptap",
+      "matchPackagePatterns": [
+        "^@tiptap/"
+      ]
+    },
+    {
+      "groupName": "commitlint",
+      "matchPackagePatterns": [
+        "^@commitlint/"
+      ]
+    },
+    {
+      "groupName": "eslint",
+      "matchPackageNames": [
+        "eslint"
+      ],
+      "matchPackagePatterns": [
+        "^@typescript-eslint/", "^@vue/eslint-", "^eslint-config-", "^eslint-plugin-"
+      ]
+    },
+    {
+      "groupName": "semantic release",
+      "matchPackagePatterns": [
+        "^@semantic-release/", "^semantic-release"
+      ]
+    },
+    {
+      "groupName": "capacitor",
+      "matchPackagePatterns": [
+        "^@capacitor/"
+      ]
+    },
+    {
+      "groupName": "lodash",
+      "matchPackagePatterns": [
+        "^lodash", "^@types/lodash"
+      ]
+    },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
       "automergeStrategy": "squash"
     },
     {
-      "matchPackageNames": ["typescript"],
-      "automerge": false
+      "matchDepTypes": [
+        "engines"
+      ],
+      "enabled": false
     }
+  ],
+  "ignoreDeps": [
+    "vue",
+    "sass"
   ]
 }
