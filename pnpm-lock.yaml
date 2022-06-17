@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  renovate: ^32.88.1
+  renovate: ^32.89.0
 
 devDependencies:
-  renovate: 32.88.1
+  renovate: 32.89.0
 
 packages:
 
@@ -1049,7 +1049,7 @@ packages:
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
-    resolution: {integrity: sha1-dhnC6yGyVIP20WdUi0z9WnSIw9U=, tarball: '@nodelib/fs.scandir/download/@nodelib/fs.scandir-2.1.5.tgz'}
+    resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -2006,7 +2006,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=, tarball: concat-map/download/concat-map-0.0.1.tgz}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /console-control-strings/1.1.0:
@@ -4098,8 +4098,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.88.1:
-    resolution: {integrity: sha512-QlAs3aJVlD9C7XKhUBj80rruhWaSHHcC03QK920Diw+31L4DHR9kArhS/ZVf8ojhMZhyULUGG1cycm7GX8XRYw==}
+  /renovate/32.89.0:
+    resolution: {integrity: sha512-GaZoJMU0UcJb6Kc5ktvXRwryKUo4PkdbZwqpNtp9Ef2IAa3hbVS0uCBl1xI72Kk8/BP9aCYbWALEDvI6dZGesw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
