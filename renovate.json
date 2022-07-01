@@ -62,6 +62,7 @@
   ],
   "ignoreDeps": [
     "vue",
+    "vue-template-compiler",
     "sass"
   ]
 }
