@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  renovate: ^32.190.3
+  renovate: ^32.194.5
 
 devDependencies:
-  renovate: 32.190.3
+  renovate: 32.194.5
 
 packages:
 
@@ -2683,8 +2683,8 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /good-enough-parser/1.1.18:
-    resolution: {integrity: sha512-qn0UlqAp6r9ZBuGzT3dTOrqDR43NCm2HAoqCKuMoEbp8H6zy55JGlDxdGWVBnpIydwSjx9tqSSlKlaBSDqkUFA==}
+  /good-enough-parser/1.1.19:
+    resolution: {integrity: sha512-O1sdiXjZocP8gFYi5yMJ1kNGTJi9aV563Pjvo6UwOln3+IE+l6bshHqlKYdEM63Pof1KIqPCPKhNzkDPxNoFpw==}
     dependencies:
       '@thi.ng/zipper': 1.0.3
       '@types/moo': 0.5.5
@@ -3278,6 +3278,11 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
+  /luxon/3.0.3:
+    resolution: {integrity: sha512-+EfHWnF+UT7GgTnq5zXg3ldnTKL2zdv7QJgsU5bjjpbH17E3qi/puMhQyJVYuCq+FRkogvB5WB6iVvUr+E4a7w==}
+    engines: {node: '>=12'}
+    dev: true
+
   /make-fetch-happen/10.1.8:
     resolution: {integrity: sha512-0ASJbG12Au6+N5I84W+8FhGS6iM8MyzvZady+zaQAu+6IOaESFzCLLD0AR1sAFF3Jufi8bxm586ABN6hWd3k7g==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
@@ -3649,8 +3654,8 @@ packages:
     dev: true
     optional: true
 
-  /node-html-parser/5.4.1:
-    resolution: {integrity: sha512-xy/O2wOEBJsIRLs4avwa1lVY7tIpXXOoHHUJLa0GvnoPPqMG1hgBVl1tNI3GHOwRktTVZy+Y6rjghk4B9/NLyg==}
+  /node-html-parser/5.4.2:
+    resolution: {integrity: sha512-RaBPP3+51hPne/OolXxcz89iYvQvKOydaqoePpOgXcrOKZhjVIzmpKZz+Hd/RBO2/zN2q6CNJhQzucVz+u3Jyw==}
     dependencies:
       css-select: 4.3.0
       he: 1.2.0
@@ -3745,8 +3750,8 @@ packages:
       wrappy: 1.0.2
     dev: true
 
-  /openpgp/5.4.0:
-    resolution: {integrity: sha512-XgQnK8SYy4Ycg9BDvrXTE4foMwME/+1EfGZWZirUU2VPzU1X3xx094fChjbP10+gUJifAcoWTsT2zAbdhFUxyg==}
+  /openpgp/5.5.0:
+    resolution: {integrity: sha512-SpwcJnxrK9Y0HRM6KxSFqkAEOSWEabCH/c8dII/+y2e5f6KvuDG5ZE7JXaPBaVJNE4VUZZeTphxXDoZD0KOHrw==}
     engines: {node: '>= 8.0.0'}
     dependencies:
       asn1.js: 5.4.1
@@ -4132,8 +4137,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.190.3:
-    resolution: {integrity: sha512-r3sL1UjpuDciN/UMs90LPN3B6HF39czoY+WFOAtPLph/ChUkYRsaVrlvjYNl5+pur7IdcSjOAplwuySk4Jsmbg==}
+  /renovate/32.194.5:
+    resolution: {integrity: sha512-Wa0SPYgu+iJYfRiEb+6E3QOZ9Xna4GrdciU0b8gi7D5egF8aPrI+LET5gorD06cM1rWA6W+bPg5vxPf2s09cyw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4152,6 +4157,7 @@ packages:
       '@yarnpkg/core': 3.2.4
       '@yarnpkg/parsers': 2.5.1
       agentkeepalive: 4.2.1
+      aggregate-error: 3.1.0
       auth-header: 1.0.0
       azure-devops-node-api: 11.2.0
       bunyan: 1.8.15
@@ -4179,7 +4185,7 @@ packages:
       git-url-parse: 12.0.0
       github-url-from-git: 1.5.0
       global-agent: 3.0.0
-      good-enough-parser: 1.1.18
+      good-enough-parser: 1.1.19
       got: 11.8.5
       graph-data-structure: 2.0.0
       handlebars: 4.7.7
@@ -4190,15 +4196,15 @@ packages:
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.1
-      luxon: 3.0.1
+      luxon: 3.0.3
       markdown-it: 13.0.1
       markdown-table: 2.0.0
       marshal: 0.5.4
       minimatch: 5.1.0
       moo: 0.5.1
       nanoid: 3.3.4
-      node-html-parser: 5.4.1
-      openpgp: 5.4.0
+      node-html-parser: 5.4.2
+      openpgp: 5.5.0
       p-all: 3.0.0
       p-map: 4.0.0
       p-queue: 6.6.2
@@ -4213,7 +4219,7 @@ packages:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.13.0
+      simple-git: 3.14.0
       slugify: 1.6.5
       traverse: 0.6.6
       tslib: 2.4.0
@@ -4403,8 +4409,8 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /simple-git/3.13.0:
-    resolution: {integrity: sha512-VYrs3joeHvWGcN3K135RpGpPjm4AHYeOrclwew6LlfHgq6ozQYIW2yMnmjf4PCgVOuSYCbXkdUjyiFawuJz8MA==}
+  /simple-git/3.14.0:
+    resolution: {integrity: sha512-Paad1BkrI7vWhImLybDRYOHnh3WPsHSKXJpmKM+iGjjKNV91XaOdd+yIdZ/gqdzncHDEKYff4k+74oNo1R+U8Q==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
