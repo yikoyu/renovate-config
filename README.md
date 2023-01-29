@@ -10,7 +10,37 @@ Add this into `renovate.json`:
 
 ```json
 {
+  "extends": ["github>yikoyu/renovate-config:PRESET"]
+}
+```
+
+## Presets
+### default
+It contains only language independent defaults that we want to apply to **all** repositories.
+
+It is the only preset that doesn't need to be named when using it:
+
+```json
+{
   "extends": ["github>yikoyu/renovate-config"]
+}
+```
+
+### javascript
+
+Adds some rules we generally apply in javascript related repositories.  
+```json
+{
+  "extends": ["github>yikoyu/renovate-config:javascript"]
+}
+```
+
+### python
+
+Adds some rules we generally apply in python related repositories.
+```json
+{
+  "extends": ["github>yikoyu/renovate-config:python"]
 }
 ```
 

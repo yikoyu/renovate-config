@@ -1,0 +1,59 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>yikoyu/renovate-config",
+    "helpers:disableTypesNodeMajor"
+  ],
+  "packageRules": [{
+      "groupName": "tiptap",
+      "matchPackagePatterns": [
+        "^@tiptap/"
+      ]
+    },
+    {
+      "groupName": "commitlint",
+      "matchPackagePatterns": [
+        "^@commitlint/"
+      ]
+    },
+    {
+      "groupName": "eslint",
+      "matchPackageNames": [
+        "eslint"
+      ],
+      "matchPackagePatterns": [
+        "^@typescript-eslint/", "^@vue/eslint-", "^eslint-config-", "^eslint-plugin-", "^eslint-define-"
+      ]
+    },
+    {
+      "groupName": "semantic release",
+      "matchPackagePatterns": [
+        "^@semantic-release/", "^semantic-release"
+      ]
+    },
+    {
+      "groupName": "capacitor",
+      "matchPackagePatterns": [
+        "^@capacitor/"
+      ]
+    },
+    {
+      "groupName": "lodash",
+      "matchPackagePatterns": [
+        "^lodash", "^@types/lodash"
+      ]
+    },
+    {
+      "matchDepTypes": [
+        "engines"
+      ],
+      "enabled": false
+    }
+  ],
+  "ignoreDeps": [
+    "vue",
+    "vue-router",
+    "vue-template-compiler",
+    "sass"
+  ]
+}

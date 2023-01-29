@@ -4,7 +4,10 @@
   "description": "Presets for Open Source Libraries",
   "version": "1.0.0",
   "scripts": {
-    "test": "renovate-config-validator"
+    "validate:all": "pnpm validate:default && pnpm validate:javascript && pnpm validate:python",
+    "validate:default": "RENOVATE_CONFIG_FILE=default.json renovate-config-validator",
+    "validate:javascript": "RENOVATE_CONFIG_FILE=javascript.json && renovate-config-validator",
+    "validate:python": "RENOVATE_CONFIG_FILE=python.json && renovate-config-validator"
   },
   "files": [],
   "devDependencies": {
