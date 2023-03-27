@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  renovate: ^35.14.4
+  renovate: ^35.23.3
 
 devDependencies:
-  renovate: 35.14.4
+  renovate: 35.23.3
 
 packages:
 
@@ -2628,8 +2628,8 @@ packages:
       mimic-response: 3.1.0
     dev: true
 
-  /deepmerge/4.3.0:
-    resolution: {integrity: sha512-z2wJZXrmeHdvYJp/Ux55wIjqo81G5Bp4c+oELTW+7ar6SogWHajt5a9gO3s3IDaGSAXjDk0vlQKN3rms8ab3og==}
+  /deepmerge/4.3.1:
+    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -4613,8 +4613,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.14.4:
-    resolution: {integrity: sha512-/yFMFPqgSjfwuQLFAzfjcrzgwL+TyGlEO7GnnEevIwkuhsoeMlTz3413H8QAAtRBgsf45CXQq79MdwxGU2xYCA==}
+  /renovate/35.23.3:
+    resolution: {integrity: sha512-K1olygkQjokT7uIfL7FcjM/NmFLwSn/lEyCuCbkIav9YsUbdnuM1JKn7QQ+Lo+H/rxZ66bItNG1scvXDXq0cCw==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4660,7 +4660,7 @@ packages:
       commander: 10.0.0
       conventional-commits-detector: 1.0.3
       crypto-random-string: 3.3.1
-      deepmerge: 4.3.0
+      deepmerge: 4.3.1
       delay: 5.0.0
       dequal: 2.0.3
       detect-indent: 6.1.0
@@ -4707,7 +4707,7 @@ packages:
       redis: 4.6.5
       remark: 13.0.0
       remark-github: 10.1.0
-      safe-stable-stringify: 2.4.2
+      safe-stable-stringify: 2.4.3
       semver: 7.3.8
       semver-stable: 3.0.0
       semver-utils: 1.1.4
@@ -4838,8 +4838,8 @@ packages:
     dev: true
     optional: true
 
-  /safe-stable-stringify/2.4.2:
-    resolution: {integrity: sha512-gMxvPJYhP0O9n2pvcfYfIuYgbledAOJFcqRThtPRmjscaipiwcwPPKLytpVzMkG2HAN87Qmo2d4PtGiri1dSLA==}
+  /safe-stable-stringify/2.4.3:
+    resolution: {integrity: sha512-e2bDA2WJT0wxseVd4lsDP4+3ONX6HpMXQa1ZhFQ7SU+GjvORCmShbCMltrtIDfkYhVHrOcPtj+KhmDBdPdZD1g==}
     engines: {node: '>=10'}
     dev: true
 
