@@ -22,7 +22,12 @@
         "eslint"
       ],
       "matchPackagePatterns": [
-        "^@typescript-eslint/", "^@vue/eslint-", "^eslint-config-", "^eslint-plugin-", "^eslint-define-"
+        "^@typescript-eslint/",
+        "^@vue/eslint-",
+        "^eslint-config-",
+        "^eslint-plugin-",
+        "^eslint-define-",
+        "^vue-eslint-parser"
       ]
     },
     {
