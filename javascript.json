@@ -31,7 +31,31 @@
       ]
     },
     {
-      "groupName": "semantic release",
+      "groupName": "rollup",
+      "matchPackageNames": [
+        "rollup"
+      ],
+      "matchPackagePatterns": [
+        "^rollup-plugin-"
+      ]
+    },
+    {
+      "groupName": "vite",
+      "matchPackageNames": [
+        "vite"
+      ],
+      "matchPackagePatterns": [
+        "^@vitejs/plugin-"
+      ]
+    },
+    {
+      "groupName": "vite-plugin",
+      "matchPackagePatterns": [
+        "^vite-plugin-"
+      ]
+    },
+    {
+      "groupName": "semantic-release",
       "matchPackagePatterns": [
         "^@semantic-release/", "^semantic-release"
       ]
