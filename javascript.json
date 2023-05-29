@@ -27,7 +27,8 @@
         "^eslint-config-",
         "^eslint-plugin-",
         "^eslint-define-",
-        "^vue-eslint-parser"
+        "^vue-eslint-parser",
+        "^@rushstack/eslint-patch"
       ]
     },
     {
