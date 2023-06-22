@@ -1,26 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "local>yikoyu/renovate-config",
-    "helpers:disableTypesNodeMajor"
-  ],
-  "packageRules": [{
+  "extends": ["local>yikoyu/renovate-config", "helpers:disableTypesNodeMajor"],
+  "packageRules": [
+    {
       "groupName": "tiptap",
-      "matchPackagePatterns": [
-        "^@tiptap/"
-      ]
+      "matchPackagePatterns": ["^@tiptap/"]
     },
     {
       "groupName": "commitlint",
-      "matchPackagePatterns": [
-        "^@commitlint/"
-      ]
+      "matchPackagePatterns": ["^@commitlint/"]
     },
     {
       "groupName": "eslint",
-      "matchPackageNames": [
-        "eslint"
-      ],
+      "matchPackageNames": ["eslint"],
       "matchPackagePatterns": [
         "^@typescript-eslint/",
         "^@vue/eslint-",
@@ -28,62 +20,69 @@
         "^eslint-plugin-",
         "^eslint-define-",
         "^vue-eslint-parser",
-        "^@rushstack/eslint-patch"
+        "^@rushstack/eslint-patch",
+        "^@types/eslint"
       ]
+    },
+    {
+      "groupName": "eslint",
+      "matchPackageNames": ["eslint"],
+      "matchPackagePatterns": [
+        "^@typescript-eslint/",
+        "^@vue/eslint-",
+        "^eslint-config-",
+        "^eslint-plugin-",
+        "^eslint-define-",
+        "^vue-eslint-parser",
+        "^@rushstack/eslint-patch",
+        "^@types/eslint"
+      ]
+    },
+    {
+      "groupName": "prettier",
+      "matchPackageNames": ["prettier"],
+      "matchPackagePatterns": ["^prettier-plugin-", "^@types/prettier"]
+    },
+    {
+      "groupName": "stylelint",
+      "matchPackageNames": ["stylelint"],
+      "matchPackagePatterns": ["^stylelint-"]
+    },
+    {
+      "groupName": "postcss",
+      "matchPackageNames": ["postcss"],
+      "matchPackagePatterns": ["^postcss-"]
     },
     {
       "groupName": "rollup",
-      "matchPackageNames": [
-        "rollup"
-      ],
-      "matchPackagePatterns": [
-        "^rollup-plugin-"
-      ]
+      "matchPackageNames": ["rollup"],
+      "matchPackagePatterns": ["^rollup-plugin-"]
     },
     {
       "groupName": "vite",
-      "matchPackageNames": [
-        "vite"
-      ],
-      "matchPackagePatterns": [
-        "^@vitejs/plugin-"
-      ]
+      "matchPackageNames": ["vite"],
+      "matchPackagePatterns": ["^@vitejs/plugin-"]
     },
     {
       "groupName": "vite-plugin",
-      "matchPackagePatterns": [
-        "^vite-plugin-"
-      ]
+      "matchPackagePatterns": ["^vite-plugin-"]
     },
     {
       "groupName": "semantic-release",
-      "matchPackagePatterns": [
-        "^@semantic-release/", "^semantic-release"
-      ]
+      "matchPackagePatterns": ["^@semantic-release/", "^semantic-release", "^@types/semantic-release"]
     },
     {
       "groupName": "capacitor",
-      "matchPackagePatterns": [
-        "^@capacitor/"
-      ]
+      "matchPackagePatterns": ["^@capacitor/"]
     },
     {
       "groupName": "lodash",
-      "matchPackagePatterns": [
-        "^lodash", "^@types/lodash"
-      ]
+      "matchPackagePatterns": ["^lodash", "^@types/lodash"]
     },
     {
-      "matchDepTypes": [
-        "engines"
-      ],
+      "matchDepTypes": ["engines"],
       "enabled": false
     }
   ],
-  "ignoreDeps": [
-    "vue",
-    "vue-router",
-    "vue-template-compiler",
-    "sass"
-  ]
+  "ignoreDeps": ["vue", "vue-router", "vue-template-compiler", "sass"]
 }

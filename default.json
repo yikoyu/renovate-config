@@ -10,9 +10,11 @@
     "schedule:earlyMondays"
   ],
   "rangeStrategy": "bump",
-  "packageRules": [{
-    "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-    "automerge": true,
-    "automergeStrategy": "squash"
-  }]
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true,
+      "automergeStrategy": "squash"
+    }
+  ]
 }
