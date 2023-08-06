@@ -11,7 +11,7 @@
   },
   "files": [],
   "devDependencies": {
-    "renovate": "^36.25.5"
+    "renovate": "^36.34.0"
   },
   "repository": "git@github.com:yikoyu/renovate-config.git",
   "author": "yikoyu <2282373181@qq.com.com>",
