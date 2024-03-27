@@ -11,6 +11,7 @@
     "group:allNonMajor"
   ],
   "rangeStrategy": "bump",
+  "updatePinnedDependencies": false,
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
