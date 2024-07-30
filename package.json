@@ -1,6 +1,7 @@
 {
   "name": "@yikoyu/renovate-config",
   "private": true,
+  "packageManager": "pnpm@8.15.8",
   "description": "Presets for Open Source Libraries",
   "version": "1.0.0",
   "scripts": {

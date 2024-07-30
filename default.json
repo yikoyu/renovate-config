@@ -10,6 +10,7 @@
     "schedule:earlyMondays",
     "group:allNonMajor"
   ],
+  "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "updatePinnedDependencies": false,
   "packageRules": [
