@@ -25,20 +25,6 @@
       ]
     },
     {
-      "groupName": "eslint",
-      "matchPackageNames": ["eslint"],
-      "matchPackagePatterns": [
-        "^@typescript-eslint/",
-        "^@vue/eslint-",
-        "^eslint-config-",
-        "^eslint-plugin-",
-        "^eslint-define-",
-        "^vue-eslint-parser",
-        "^@rushstack/eslint-patch",
-        "^@types/eslint"
-      ]
-    },
-    {
       "groupName": "prettier",
       "matchPackageNames": ["prettier"],
       "matchPackagePatterns": ["^prettier-plugin-", "^@types/prettier"]
@@ -70,6 +56,18 @@
     {
       "groupName": "semantic-release",
       "matchPackagePatterns": ["^@semantic-release/", "^semantic-release", "^@types/semantic-release"]
+    },
+    {
+      "groupName": "changesets",
+      "matchPackagePatterns": ["^@changesets/"]
+    },
+    {
+      "groupName": "yikoyu-config",
+      "matchPackagePatterns": [
+        "^@yikoyu/stylelint-config",
+        "^@yikoyu/semantic-release-config",
+        "^@yikoyu/commitlint-config"
+      ]
     },
     {
       "groupName": "capacitor",
