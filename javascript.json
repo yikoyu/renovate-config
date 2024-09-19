@@ -19,6 +19,7 @@
         "^eslint-config-",
         "^eslint-plugin-",
         "^eslint-define-",
+        "^*/eslint-",
         "^vue-eslint-parser",
         "^@rushstack/eslint-patch",
         "^@types/eslint"
