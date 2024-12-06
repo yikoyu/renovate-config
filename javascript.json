@@ -4,21 +4,21 @@
   "packageRules": [
     {
       "groupName": "tiptap",
-      "matchPackagePatterns": ["^@tiptap/"]
+      "matchPackageNames": ["^@tiptap/**"]
     },
     {
       "groupName": "commitlint",
-      "matchPackagePatterns": ["^@commitlint/"]
+      "matchPackageNames": ["^@commitlint/**"]
     },
     {
       "groupName": "eslint",
-      "matchPackageNames": ["eslint"],
-      "matchPackagePatterns": [
-        "^@typescript-eslint/",
-        "^@vue/eslint-",
-        "^eslint-config-",
-        "^eslint-plugin-",
-        "^eslint-define-",
+      "matchPackageNames": [
+        "eslint",
+        "^@typescript-eslint/**",
+        "^@vue/eslint-**",
+        "^eslint-config-**",
+        "^eslint-plugin-**",
+        "^eslint-define-**",
         "^@antfu/eslint-config",
         "^vue-eslint-parser",
         "^@rushstack/eslint-patch",
@@ -27,44 +27,39 @@
     },
     {
       "groupName": "prettier",
-      "matchPackageNames": ["prettier"],
-      "matchPackagePatterns": ["^prettier-plugin-", "^@types/prettier"]
+      "matchPackageNames": ["prettier", "^prettier-plugin-**", "^@types/prettier"]
     },
     {
       "groupName": "stylelint",
-      "matchPackageNames": ["stylelint"],
-      "matchPackagePatterns": ["^stylelint-"]
+      "matchPackageNames": ["stylelint", "^stylelint-**"]
     },
     {
       "groupName": "postcss",
-      "matchPackageNames": ["postcss"],
-      "matchPackagePatterns": ["^postcss-"]
+      "matchPackageNames": ["postcss", "^postcss-**"]
     },
     {
       "groupName": "rollup",
-      "matchPackageNames": ["rollup"],
-      "matchPackagePatterns": ["^rollup-plugin-"]
+      "matchPackageNames": ["rollup", "^rollup-plugin-**"]
     },
     {
       "groupName": "vite",
-      "matchPackageNames": ["vite"],
-      "matchPackagePatterns": ["^@vitejs/plugin-"]
+      "matchPackageNames": ["vite", "^@vitejs/plugin-**"]
     },
     {
       "groupName": "vite-plugin",
-      "matchPackagePatterns": ["^vite-plugin-"]
+      "matchPackageNames": ["^vite-plugin-**"]
     },
     {
       "groupName": "semantic-release",
-      "matchPackagePatterns": ["^@semantic-release/", "^semantic-release", "^@types/semantic-release"]
+      "matchPackageNames": ["^@semantic-release/**", "^semantic-release", "^@types/semantic-release"]
     },
     {
       "groupName": "changesets",
-      "matchPackagePatterns": ["^@changesets/"]
+      "matchPackageNames": ["^@changesets/**"]
     },
     {
       "groupName": "yikoyu-config",
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "^@yikoyu/stylelint-config",
         "^@yikoyu/semantic-release-config",
         "^@yikoyu/commitlint-config"
@@ -72,11 +67,11 @@
     },
     {
       "groupName": "capacitor",
-      "matchPackagePatterns": ["^@capacitor/"]
+      "matchPackageNames": ["^@capacitor/**"]
     },
     {
       "groupName": "lodash",
-      "matchPackagePatterns": ["^lodash", "^@types/lodash"]
+      "matchPackageNames": ["^lodash**", "^@types/lodash**"]
     },
     {
       "matchDepTypes": ["engines"],
