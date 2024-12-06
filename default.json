@@ -7,7 +7,7 @@
     ":semanticCommitTypeAll(chore)",
     ":semanticCommitScope(deps)",
     ":disablePeerDependencies",
-    "schedule:earlyMondays",
+    "schedule:monthly",
     "group:allNonMajor"
   ],
   "labels": ["dependencies"],
